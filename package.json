@@ -1,0 +1,16 @@
+{
+  "name": "sandbox-web-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "@xmldom/xmldom": "0.9.10"
+  },
+  "devDependencies": {
+    "vitest": "3.2.4"
+  }
+}
